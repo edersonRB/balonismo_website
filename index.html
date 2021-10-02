@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial - Weballoon</title>
+    <link rel="shortcut icon" href="_imagens/icone.ico">
+    <link rel="stylesheet" href="./_css/geral.css">
+    <link rel="stylesheet" href="./_css/index.css">
+    <link rel="stylesheet" href="./_css/slide.css">
+    <script src="_js/slide.js"></script>
+</head>
+
+<body onload="slideAtual(1)">
+    <header onload="responsividade()">
+        <img src="_imagens\logo_weballon.png" alt="logo Weballoon" id="logo">
+        <br>
+        <nav>
+            <ul id="index">
+                <li><a href="index.html">PÁGINA INICIAL</a></li>
+                <li><a href="baloes.html">TIPOS DE BALÕES</a></li>
+                <li><a href="voos.html">TIPOS DE VOO</a></li>
+                <li><a href="provas.html">PROVAS DE BALONISMO</a></li>
+                <li><a href="competicoes.html">COMPETIÇÕES</a></li>
+                <li><a href="fale_conosco.php">FALE CONOSCO</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="coluna">
+        <ul >
+            <li>
+                <p id="txt_index">Seja Bem-Vindo ao Weballoon; O portal sobre balonismo na internet, 
+                    conheça tudo sobre balões desde seus diversos tipos, as formas de vôo até
+                    as competições, resumindo aqui você encontra tudo sobre balões. Navegue pelo site usando o menu superior!</p>
+            </li>
+            <li>
+                <figure>
+                    <img src="./_imagens/baloes.jpg" alt="diversos balões" id="img_destaque">
+                    <figcaption>Imagem destaque</figcaption>
+                </figure>
+            </li>
+            
+        </ul>
+    </section>
+    <hr class="linha">
+    <section>
+    <div class="carrossel">
+
+        <!-- Imagens -->
+        <div class="slide fade">
+            <div class="numero">1 / 3</div>
+            <img class="img_slide" src="./_imagens/slide1.jpg" style="width:100%">
+            <div class="texto">PT I</div>
+        </div>
+    
+        <div class="slide fade">
+            <div class="numero">2 / 3</div>
+            <img class="img_slide" src="./_imagens/slide2.jpg" style="width:100%">
+            <div class="texto">PT II</div>
+        </div>
+    
+        <div class="slide fade">
+            <div class="numero">3 / 3</div>
+            <img class="img_slide" src="./_imagens/slide3.jpg" style="width:100%">
+            <div class="texto">PT III</div>
+        </div>
+
+    
+        <!-- Botões -->
+        <a class="anterior" onclick="mudarSlide(-1)">&#10094;</a>
+        <a class="proximo" onclick="mudarSlide(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- Circulos -->
+        <div style="text-align:center">
+            <span class="circulo" onclick="slideAtual(1)"></span>
+            <span class="circulo" onclick="slideAtual(2)"></span>
+            <span class="circulo" onclick="slideAtual(3)"></span>
+        </div>
+    
+    </section>
+
+    <hr class="linha">
+
+    <div class="container">
+        <h2 id="h1Explorar">Explore as recomendações do dia em cada uma das categorias:</h2>
+        <section class="colunaExplorar">
+            <div class="divExplorar" id="balaoExplorar">
+                <h3 class="tituloExplorar"> Descubra um Balão: </h3>
+                <a href=""></a><img class="imgExplorar" src="./_imagens/imagens_semanais/balao_de_helio_tripulado.png" alt="balão recomendado do dia"></a>
+            </div>
+            <div class="divExplorar" id="vooExplorar">
+                <h3 class="tituloExplorar"> Descubra um tipo de vôo: </h3>
+                <a href=""></a><img class="imgExplorar" src="./_imagens/imagens_semanais/voo_cativo.png" alt="balão recomendado do dia"></a>
+            </div>
+        </section>
+
+        <section class="colunaExplorar">
+            <div class="divExplorar" id="provaExplorar">
+                <h3 class="tituloExplorar"> Descubra uma prova de balonismo: </h3>
+                <a href=""></a><img class="imgExplorar" src="./_imagens/imagens_semanais/prova_fly_on.png" alt="balão recomendado do dia"></a>
+            </div>
+            <div class="divExplorar" id="competicaoExplorar">
+                <h3 class="tituloExplorar"> Descubra uma competição de balonismo: </h3>
+                <a href=""></a><img class="imgExplorar" src="./_imagens/imagens_semanais/competicoes_campeonato_mundial_de_balonismo.png" alt="balão recomendado do dia"></a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <img id="img_rodape" src="./_imagens/logo_weballoon_simples.png" alt="logo">
+        <ul>
+            <li><a target="blank" href="https://www.facebook.com"><img class="social" src="./_imagens/facebook.png"
+                        alt="logo facebook"></a> </li>
+            <li><a target="blank" href="https://www.twitter.com"><img class="social" src="./_imagens/twitter.png"
+                        alt="logo twitter"></a></li>
+            <li><a target="blank" href="https://www.instagram.com"><img class="social" src="./_imagens/instagram.png"
+                        alt="logo instagram"></a></li>
+        </ul>
+        <p class="txt_rodape"> E-mail: weballoon@gmail.com <br> Telefone: +55 (42) 9</p>
+        <hr>
+        <p class="txt_rodape">&copy; 2020 - Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

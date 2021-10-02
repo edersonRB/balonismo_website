@@ -1,0 +1,21 @@
+p#txt_sobre{
+    line-break: auto;
+    margin-top: 50px;
+}
+
+div#coluna{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+hr#linha1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+img#imgsede{
+    width: 80%;
+    margin-left: 10%;
+}
+

@@ -1,0 +1,18 @@
+figure{
+    width: 30%;
+    display: block;
+    float: left;
+    background-color:#65b7ff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+
+}
+figcaption{
+    font-size: 10pt;
+    color: white;
+    font-weight: bolder;
+}
+img{
+    width: 100%;
+}

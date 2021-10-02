@@ -1,0 +1,110 @@
+*{
+    font-size: 20pt;
+    font-family:sans-serif;
+    color: rgb(32, 32, 32);
+
+}
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(5,174,255,0.23573179271708689) 100%);
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+img#logo{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+h1{
+    font-size: 30pt;
+    width: 50%;
+    margin-left: 25%;
+}
+h2{
+    font-size: 25pt ;
+}
+
+.centro{
+    width: 50%;
+    margin-left: 25%;
+}
+
+ul#index{
+    width: 80%;
+    display: inline;
+    margin-left: 15%;
+    list-style-type: none;
+}
+ul#index li{
+    display: inline;
+}
+
+ul#index li :hover{
+    background-color: #4b86b9;
+}
+
+ul#index li a{
+    font-size: 15pt;
+    background-color: #65b7ff ;
+    padding: 15px ;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.progresso_grande{
+    width: 100px;
+    display: block;
+    float: left;
+    margin: 20px;
+    margin-left: 27%;
+}
+#txt_aviso{
+    font-size: 15pt;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+
+
+/*MENU^  
+RODAPÉ v*/
+
+footer{
+    position: relative;
+    clear: both;
+    margin-bottom: -1000px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 30px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(5,174,255,0.23573179271708689) 100% );
+}
+
+footer ul{
+    position: relative;
+    display: inline;
+    list-style-type:none;
+    margin-left: 50%;
+}
+
+footer ul li{
+    display: inline;
+}
+
+img#img_rodape{
+    width: 20%;
+}
+p.txt_rodape{
+    font-size: 15pt;
+    margin-left: 5%;
+}
+.social{
+    width: 3%;
+}
