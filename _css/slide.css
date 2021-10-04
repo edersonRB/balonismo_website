@@ -1,91 +1,100 @@
-* {box-sizing:border-box}
-
 .carrossel {
-  width: 48%;
-  position: relative;
-  margin: auto;
+    width: 48%;
+    position: relative;
+    margin: auto;
 }
 
 .slide {
-  display: none;
+    display: none;
 }
 
-.img_slide{
+.img_slide {
     border-radius: 20px;
 }
 
-.anterior, .proximo {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: rgb(0, 86, 199);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.anterior,
+.proximo {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(0, 86, 199);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
 .proximo {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
-.proximo:hover, .anterior:hover {
-  background-color: rgba(0,0,0,0.8);
+.proximo:hover,
+.anterior:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .texto {
-  color: #000000;
-  font-size: 15px;
-  font-family: serif;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-family: serif;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 .numero {
-  color: rgb(0, 86, 199);
-  font-size: 15px;
-  font-weight: bolder;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: rgb(0, 86, 199);
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 .circulo {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.active, .circulo:hover {
-  background-color: #717171;
+.active,
+.circulo:hover {
+    background-color: #717171;
 }
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
