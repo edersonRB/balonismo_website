@@ -1,18 +1,19 @@
-figure{
+figure {
     width: 30%;
     display: block;
     float: left;
-    background-color:#65b7ff;
+    background-color: #65b7ff;
     padding: 10px;
     border-radius: 10px;
     margin: 20px 20px 20px 20px;
-
 }
-figcaption{
+
+figcaption {
     font-size: 10pt;
     color: white;
     font-weight: bolder;
 }
-img{
+
+img {
     width: 100%;
 }
